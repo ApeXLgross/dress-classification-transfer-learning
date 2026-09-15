@@ -1,0 +1,13 @@
+component,selected_value
+DINOv2 model,dinov2_vits14 (frozen)
+DINOv2 feature dimension,384
+MLP hidden layers,[256]
+Activation,ReLU
+Dropout,0.2
+Optimizer,Adam
+Learning rate,0.0001
+Batch size,64
+Scheduler,ReduceLROnPlateau
+Early-stopping patience,7
+Best validation loss,0.9852236637078826
+Best validation accuracy,0.6441241685144125
